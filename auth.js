@@ -102,11 +102,13 @@ function returnToGame(user) {
         использовать его для идентификации.
     */
 
-    const url =
-        "primezone://auth" +
-        "?uid=" + encodeURIComponent(uid) +
-        "&email=" + encodeURIComponent(email) +
-        "&name=" + encodeURIComponent(displayName);
+const url =
+    "primezone://auth" +
+    "?uid=" + encodeURIComponent(uid) +
+    "&email=" + encodeURIComponent(email) +
+    "&name=" + encodeURIComponent(displayName);
+
+window.location.href = url;
 
 
     setStatus("Авторизация успешна. Возвращаемся в игру...");
