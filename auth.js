@@ -17,17 +17,17 @@ import {
 
 const firebaseConfig = {
 
-    apiKey: "ВСТАВЬ_СВОЙ_API_KEY",
+    apiKey: "AIzaSyDXLV0Ul8ZU6yhQ8elBGPX1AsuJGLEJnbA",
 
-    authDomain: "ВСТАВЬ_СВОЙ_AUTH_DOMAIN",
+    authDomain: "primezone-9b609.firebaseapp.com",
 
-    projectId: "ВСТАВЬ_СВОЙ_PROJECT_ID",
+    projectId: "primezone-9b609",
 
-    storageBucket: "ВСТАВЬ_СВОЙ_STORAGE_BUCKET",
+    storageBucket: "primezone-9b609.firebasestorage.app",
 
-    messagingSenderId: "ВСТАВЬ_СВОЙ_MESSAGING_SENDER_ID",
+    messagingSenderId: "50135812900",
 
-    appId: "ВСТАВЬ_СВОЙ_APP_ID"
+    appId: "1:50135812900:web:4885374ebc343551ee41b1"
 };
 
 
