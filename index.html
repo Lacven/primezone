@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>PrimeZone — Авторизация</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <main class="auth-container">
+
+        <div class="logo">
+            PRIME<span>ZONE</span>
+        </div>
+
+        <div class="subtitle">
+            ВОЙДИТЕ В СВОЙ АККАУНТ
+        </div>
+
+        <section class="auth-card">
+
+            <input
+                id="email"
+                type="email"
+                placeholder="Email"
+                autocomplete="email"
+            >
+
+            <input
+                id="password"
+                type="password"
+                placeholder="Пароль"
+                autocomplete="current-password"
+            >
+
+            <button id="loginButton" class="main-button">
+                ВОЙТИ
+            </button>
+
+            <div class="separator">
+                <span>ИЛИ</span>
+            </div>
+
+            <button id="googleButton" class="google-button">
+                <span class="google-icon">G</span>
+                ВОЙТИ ЧЕРЕЗ GOOGLE
+            </button>
+
+            <div id="status" class="status"></div>
+
+        </section>
+
+    </main>
+
+    <!-- Firebase -->
+    <script type="module" src="auth.js"></script>
+
+</body>
+
+</html>
